@@ -2,7 +2,7 @@
 
 {% block content %}
     <ul>
-        {% for task in tasks %}
+        {% for task in task_list %}
             <li>{{ task.tittle }} - {{ task.description }}</li>
             {% empty %}
             <li>No hay tareas disponibles.</li>
